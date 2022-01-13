@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.17.1",
+    "npm": "8.3.0"
+  },
   "scripts": {
     "start": "nodemon server.js"
   },
@@ -36,9 +40,5 @@
     "eslint": "^7.9.0",
     "eslint-plugin-react": "^7.21.2",
     "nodemon": "^2.0.4"
-  },
-  "engines": {
-    "node": "12.4.0",
-    "npm": "6.9.0"
   }
 }
